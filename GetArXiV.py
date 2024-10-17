@@ -64,7 +64,7 @@ def sort_by_title(results):
 if __name__ == "__main__":
 	entries = []
 	if os.path.exists('data/arXiV_CV.pkl'):
-		with open('bib.pkl', 'rb') as file:  # 'rb' is read binary mode
+		with open('data/arXiV_CV.pkl', 'rb') as file:  # 'rb' is read binary mode
 			entries = pickle.load(file)
 
 	countPerCategory = 100
