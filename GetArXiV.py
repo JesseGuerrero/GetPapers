@@ -68,7 +68,7 @@ if __name__ == "__main__":
 			entries = pickle.load(file)
 
 	countPerCategory = 100
-	years = list(range(1991, 2025))
+	years = list(range(2020, 2025))
 	categories = ["cs.CV"]
 	keywords = [
 		"literature", "review", "survey", "multimodal", "llm", "neural network", "deep learning", "transformer", "cnn",

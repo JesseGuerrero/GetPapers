@@ -9,5 +9,6 @@ if __name__ == "__main__":
         with open('data/arXiV_CV.pkl', 'rb') as file:
             entries = pickle.load(file)
 
-    for entry in entries:
-        print(entry)
+    with open('data/arXiVBib.txt', 'a', encoding='utf-8') as file:
+        for entry in entries:
+            file.write(entry)
